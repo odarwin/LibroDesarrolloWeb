@@ -1,0 +1,19 @@
+body{
+	background: #FFF8DC;
+	width: 700px;
+	margin:200px;
+}
+div.primero{
+	border:4px solid RoyalBlue;
+	text-align: center;
+	padding: 5px
+}
+p{
+	border:1px dotted DarkRed;
+	font-style: oblique;
+}
+div.segundo{
+	border:4px solid Blue;
+	text-align: inherit;
+	padding: 6px
+}

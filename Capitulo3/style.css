@@ -1,0 +1,39 @@
+body{
+	background: lightcyan;
+	width: 800px;
+	margin: auto; /*esta centrando el body*/
+}
+h1{
+	color: maroon;
+	text-align: center;
+}
+a{
+	color:cornflowerblue;
+	/*este link aun no ha sido clickeado*/
+	text-decoration: none; 
+	/*poner none al subradyado por defaul*/
+}
+a:visited{
+	color:tomato;
+	/*este link ya fue clickeado y cambia de color */
+}
+a:hover{
+	text-decoration: underline;
+	/*cuando pasa el puntero encima del link*/
+}
+ol{
+	border:5px solid darksalmon;
+	border-radius: 10px;
+}
+.content li{
+	color: blue;
+}
+li:last-child{
+	color: brown;
+}
+li:nth-child(2){
+	color: orange;
+}
+ul li:nth-child(2){
+	color:yellow;
+}

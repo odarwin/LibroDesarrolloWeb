@@ -1,0 +1,28 @@
+main {
+width: 500px;
+margin: auto;
+background: gray;
+/*el color desaparece xq los 500px no fueron suficiente pero el main se acopla, para que se acople con todo y color usamos
+overflow*/
+overflow: auto;
+}
+nav {
+width: 80px;
+float: right;
+/*el nav se va a la derecha*/
+}
+/* remove defaults on the p elements inside the nav */
+nav p {
+margin: 0;
+padding: 0;
+}
+p {
+	/*el p se va a la izquiera*/
+margin: 10px; /* remove the default margin on p */
+float: left;
+width: 400px;
+/*400+2*10=420
+	pero el nav tiene 80
+	por lo tanto 420 y 80 =500 que es lo que pide el main
+*/
+}

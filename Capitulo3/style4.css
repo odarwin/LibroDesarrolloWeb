@@ -1,0 +1,38 @@
+* {
+margin: 0;
+padding: 0;
+}
+nav {
+float: left;
+background:darkgray;
+}
+main {
+background:lightgray;
+}
+footer {
+background:gray;
+clear:both;
+}
+h1{
+	font-family: "Akaya Kanadaka", sans-serif;
+	font-size: xx-large;
+
+}
+.contenido{
+	font-family: 'Roboto Slab', serif;
+	font-size:1em;
+}
+body{
+	font-size: 100%; 
+	/*se le da un tamanio base para que despues se pueda +/-*/
+}
+h2{
+	font-size: x-large;
+}
+nav{
+	font-size: larger;
+}
+footer{
+	font-size: 1.2em;
+	/* .[1.2xbase_size] */
+}
